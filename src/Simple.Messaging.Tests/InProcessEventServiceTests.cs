@@ -5,7 +5,7 @@ namespace Simple.Messaging.Tests;
 public class InProcessEventServiceTests
 {
     [Fact]
-    public void Can_Register_EventHandler()
+    public void Can_Register_Event_Handler()
     {
         //Arrange
         IEventService eventService = new InProcessEventService();
@@ -51,7 +51,7 @@ public class InProcessEventServiceTests
     }
 
     [Fact]
-    public void Can_Handle_IEvent_Parameter()
+    public void Can_Handle_Event_Parameter()
     {
         //Arrange
         int effect = 0;
